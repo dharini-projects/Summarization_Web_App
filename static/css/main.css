@@ -1,0 +1,86 @@
+
+  /*
+   * Formatting the header area
+   */
+   header {
+    background-color: #272727;
+    height: 35px;
+    width: 100%;
+    opacity: .9;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* Formatting the appearence of heading written with h1 tag */
+  header h1.logo {
+    margin: 0;
+    font-size: 1.7em;
+    font-weight:bolder;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    
+    float: left;
+    text-align: center;
+  }
+  /* Formatting the appearence of h1 when hovered over with mouse pointer */
+  header h1.logo:hover {
+    color: rgb(224, 13, 172);
+    text-decoration: none;
+    text-align: center; 
+  }
+  /*
+   * Formatting the body content
+   */
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(70, 69, 68, 0.822);
+  background-image: url('../images/Image.gif');
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #daeff0e0;
+  }
+  /* Formatting a division or a section*/
+  div.home {
+    padding: 10px 0 30px 0;
+    background-color: #E6E6FA;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  /* Formatting the appearence of heading written with h2 tag */
+  h2 {
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+  /* Formatting the appearence of heading written with h3 tag */
+  h3 {
+    font-size: 1.7em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: rgb(255, 255, 255);
+  }
+  /*
+   * Aligning the content in body
+   */
+
+  /* parent and child used to align two text boxes side by side */
+  .parent {
+    /* border: 1px solid black; */
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
