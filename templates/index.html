@@ -22,7 +22,7 @@
     <div class ='parent'>
     <div class ='child'>
     <h3 class="logo">Input Text</h3>
-     <!-- Specify the Summarize method to process the submitted data in the form-->
+     <!-- Specify the get_summary method to process the submitted data in the form-->
     <form action = "{{url_for('get_summary')}}" method="post">
         <!-- Name in textarea is important - BECAUSE IT CONNECTS THE FRONT END AND BACK END -->
         <textarea name = "input_text" cols="50" rows="25" placeholder="Text" style="background-color:black;color:#fff ;" aria-required="required"></textarea>
