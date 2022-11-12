@@ -9,4 +9,4 @@ The repository contains code for building a text summarization web application f
 Kindly refer the article link for a detailed explanation on each of the step.
 
 **Proceed with your project and Succeed !!!!**
-**Happy Coding**
+
