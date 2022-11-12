@@ -6,7 +6,7 @@ The repository contains code for building a text summarization web application f
 2. Build the front end with HTML and CSS.
 3. Build the back end with Python Flask and include the summarization task.
 
-Kindly refer the article link for a detailed explanation on each of the step.
+Kindly refer the article link for a detailed explanation on each step.
 
 **Proceed with your project and Succeed !!!!**
 
